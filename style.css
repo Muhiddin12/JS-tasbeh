@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(228, 76, 207);
+  font-family: cursive;
+}
+.stat-container {
+  margin: 20px;
+  border: dotted rgb(255, 255, 255);
+  min-width: 240px;
+  height: 120px;
+}
+.stat-container h4 {
+  white-space: nowrap;
+  margin: 9px;
+  font-size: 20px;
+}
+.icon {
+  margin-top: -40px;
+  transform: translateX(0%);
+}
+.counter {
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Media Media */
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+  }
+}
